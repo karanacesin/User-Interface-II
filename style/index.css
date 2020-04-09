@@ -1,1 +1,102 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video 
+{  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;
+box-sizing:border-box
+}
+html{
+    font-size:62.5%
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+h1 {
+    font: bold;
+    font-size:15rem;
+    text-align: center
+}
+
+h2{
+    font-size:7.5rem;
+    text-align:center;
+}
+
+p{
+    font-size:3.5rem;
+    color:lightseagreen;
+}
+
+.about div{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+nav{
+    font-size:3rem;
+    text-align:center;
+}
+
+nav a {
+    color:ghostwhite;
+ }
+nav a:hover{
+    color:paleturquoise;
+}
+
+.header {
+    background: steelblue;
+    color: powderblue;
+}
+
+.about{
+    background:peachpuff;
+    color:coral;
+}
+
+.projects {
+    background: seashell;
+    color: coral;
+}
+
+.contact {
+    background: palegoldenrod;
+    color: coral;
+}
+
+.contact nav a{
+    color:firebrick;
+    font-size:4rem;
+}
+
+.contact nav a:hover{
+    color:orangered;
+}
+
+.footer {
+    background: steelblue;
+    color: powderblue;
+}
