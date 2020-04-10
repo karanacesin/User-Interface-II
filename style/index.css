@@ -118,3 +118,53 @@ nav a:hover{
     background: steelblue;
     color: powderblue;
 }
+
+@media(max-width:800px) {
+    h1 {
+        font-size: 10rem;
+    }
+
+    h2 {
+        font-size: 6rem;
+    }
+
+    p {
+        font-size: 2.5rem;
+    }
+
+    nav {
+        font-size: 2rem;
+    }
+
+    .contact nav a {
+        font-size: 3rem;
+    }
+
+    .about section{
+        flex-wrap:wrap;
+    }
+
+    .about section div{
+        width:75%;
+        padding:.25%;
+    }
+    .projects section{
+        flex-wrap:wrap;
+    }
+
+
+    .projects section div{
+        width:95%;
+    }
+}
+
+@media(max-width:500px){
+    .about section{
+        flex-wrap:wrap;
+    }
+
+    .about section div {
+        width: 100%;
+        padding: .25%;
+    }
+}
