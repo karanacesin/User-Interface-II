@@ -83,10 +83,22 @@ nav a:hover{
  }
 
 .projects {
-    padding-bottom:1%;
     background: seashell;
     color: coral;
 }
+
+.projects section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects section div {
+    padding-bottom:1%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+ }
 
 .contact {
     background: palegoldenrod;
