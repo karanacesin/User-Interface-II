@@ -47,14 +47,6 @@ p{
     color:lightseagreen;
 }
 
-.about div{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    align-items:center;
-    flex-wrap:wrap;
-}
-
 nav{
     font-size:3rem;
     text-align:center;
@@ -73,11 +65,25 @@ nav a:hover{
 }
 
 .about{
+    padding-bottom:1%;
     background:peachpuff;
     color:coral;
 }
 
+.about section {
+    width: 100%;
+    display: flex;
+}
+
+.about section div {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
 .projects {
+    padding-bottom:1%;
     background: seashell;
     color: coral;
 }
