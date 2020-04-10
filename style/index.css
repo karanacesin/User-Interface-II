@@ -1,1 +1,170 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video 
+{  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;
+box-sizing:border-box
+}
+html{
+    font-size:62.5%
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+h1 {
+    font: bold;
+    font-size:15rem;
+    text-align: center
+}
+
+h2{
+    font-size:7.5rem;
+    text-align:center;
+}
+
+p{
+    font-size:3.5rem;
+    color:lightseagreen;
+}
+
+nav{
+    font-size:3rem;
+    text-align:center;
+}
+
+nav a {
+    color:ghostwhite;
+ }
+nav a:hover{
+    color:paleturquoise;
+}
+
+.header {
+    background: steelblue;
+    color: powderblue;
+}
+
+.about{
+    padding-bottom:1%;
+    background:peachpuff;
+    color:coral;
+}
+
+.about section {
+    width: 100%;
+    display: flex;
+}
+
+.about section div {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+.projects {
+    background: seashell;
+    color: coral;
+}
+
+.projects section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects section div {
+    padding-bottom:1%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+ }
+
+.contact {
+    background: palegoldenrod;
+    color: coral;
+}
+
+.contact nav a{
+    color:firebrick;
+    font-size:4rem;
+}
+
+.contact nav a:hover{
+    color:orangered;
+}
+
+.footer {
+    background: steelblue;
+    color: powderblue;
+}
+
+@media(max-width:800px) {
+    h1 {
+        font-size: 10rem;
+    }
+
+    h2 {
+        font-size: 6rem;
+    }
+
+    p {
+        font-size: 2.5rem;
+    }
+
+    nav {
+        font-size: 2rem;
+    }
+
+    .contact nav a {
+        font-size: 3rem;
+    }
+
+    .about section{
+        flex-wrap:wrap;
+    }
+
+    .about section div{
+        width:75%;
+        padding:.25%;
+    }
+    .projects section{
+        flex-wrap:wrap;
+    }
+
+
+    .projects section div{
+        width:95%;
+    }
+}
+
+@media(max-width:500px){
+    .about section{
+        flex-wrap:wrap;
+    }
+
+    .about section div {
+        width: 100%;
+        padding: .25%;
+    }
+}
